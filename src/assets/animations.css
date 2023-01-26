@@ -1,0 +1,27 @@
+@keyframes to-bl {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(-40px, 40px);
+    }
+}
+
+@keyframes to-t {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(0px, -40px);
+    }
+}
+
+
+.animate-to-bl {
+    animation: to-bl 1.5s linear 0s infinite;
+}
+
+
+.animate-to-t {
+    animation: to-t 1.5s linear 0s infinite;
+}
