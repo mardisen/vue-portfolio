@@ -6,15 +6,17 @@ import Background from "@components/Background.vue";
 <template>
 
   <Background />
-  
+
   <header>
     <div class="wrapper">
-      <nav>
+      <nav class="navbar">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <div class="content">
+    <RouterView />
+  </div>
 </template>
