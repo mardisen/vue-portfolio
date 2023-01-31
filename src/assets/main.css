@@ -9,10 +9,14 @@
     @apply w-full text-center inline-flex justify-center p-4 space-x-12 font-semibold text-lg;
     a {
         @apply transition-all duration-300 text-neutral-500 w-24;
-        @apply hover:text-primary-lightest;
+
+        &:hover {
+            @apply text-primary-lightest;
+        }
 
         &::after {
-            @apply h-[2px] w-0 rounded-full bg-primary-light block transition-all duration-300 mx-auto;
+            @apply h-[2px] w-0 rounded-full bg-primary-light block mx-auto;
+            @apply transition-all ease-out duration-300 delay-200;
             content: "";
         }
 
@@ -30,7 +34,10 @@
 
         &.router-link-active {
             @apply text-primary-lightest;
-            @apply after:bg-primary-red after:w-full;
+
+            &::after {
+                @apply bg-primary-red w-full;
+            }
         }
     }
 }
