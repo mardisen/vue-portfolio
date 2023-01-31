@@ -15,6 +15,6 @@
 }
 
 .cover-gradient {
-    background: linear-gradient(#242424 70%, transparent);
+    background: linear-gradient(#1C2124 80%, transparent);
 }
 </style>

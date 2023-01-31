@@ -18,10 +18,10 @@
 
 
 .animate-to-bl {
-    animation: to-bl 1.5s linear 0s infinite;
+    animation: to-bl 2.25s linear 0s infinite;
 }
 
 
 .animate-to-t {
-    animation: to-t 1.5s linear 0s infinite;
+    animation: to-t 2.25s linear 0s infinite;
 }
