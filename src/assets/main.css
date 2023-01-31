@@ -8,11 +8,29 @@
 .navbar {
     @apply w-full text-center flex justify-center p-4 space-x-4 font-semibold text-lg;
     a {
-        @apply transition-all duration-300 text-neutral-500 border-primary-red;
-        @apply hover:text-primary-lightest hover:border-b-2;
+        @apply transition-all duration-300 text-neutral-500;
+        @apply hover:text-primary-lightest;
+
+        &::after {
+            @apply h-[2px] w-0 rounded-full bg-primary-light block transition-all duration-300 mx-auto;
+            content: "";
+        }
+
+        &:first-child::after {
+            @apply mx-0;
+        }
+
+        &:last-child::after {
+            @apply mx-0 ml-auto;
+        }
+
+        &:hover::after {
+            @apply w-full;
+        }
 
         &.router-link-active {
-            @apply text-primary-lightest border-primary-red border-b-2;
+            @apply text-primary-lightest;
+            @apply after:bg-primary-red after:w-full;
         }
     }
 }
