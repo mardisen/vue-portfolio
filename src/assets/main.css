@@ -3,10 +3,11 @@
 
 :root {
     @apply text-primary-light;
+    @apply selection:bg-primary-red;
 }
 
 .navbar {
-    @apply w-full text-center inline-flex justify-center p-4 space-x-12 font-semibold text-lg;
+    @apply w-full text-center inline-flex justify-center p-4 space-x-12 font-semibold text-base;
     a {
         @apply transition-all duration-300 text-neutral-500 w-24;
 
@@ -15,7 +16,7 @@
         }
 
         &::after {
-            @apply h-[2px] w-0 rounded-full bg-primary-light block mx-auto;
+            @apply h-[2px] w-0 rounded-full bg-primary-light block mx-auto mt-1;
             @apply transition-all ease-out duration-300 delay-200;
             content: "";
         }
@@ -33,7 +34,7 @@
         }
 
         &.router-link-active {
-            @apply text-primary-lightest;
+            @apply text-primary-light;
 
             &::after {
                 @apply bg-primary-red w-full;
@@ -43,6 +44,14 @@
 }
 
 .content {
-    @apply px-32 py-20 text-center;
-    @apply lg:px-96;
+    @apply mx-48 my-20 text-center rounded bg-primary-dark transition-all duration-300;
+    @apply lg:mx-96;
+
+    & > * {
+        @apply transition-all duration-300;
+    }
+}
+
+code {
+    @apply text-sm text-primary-red;
 }
