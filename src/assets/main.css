@@ -1,6 +1,57 @@
-@import './base.css';
-@import './animations.css';
+@import "./base.css";
+@import "./animations.css";
 
-:root{
+:root {
     @apply text-primary-light;
+    @apply selection:bg-primary-red;
+}
+
+.navbar {
+    @apply w-full text-center inline-flex justify-center p-4 space-x-12 font-semibold text-base;
+    a {
+        @apply transition-all duration-300 text-neutral-500 w-24;
+
+        &:hover {
+            @apply text-primary-lightest;
+        }
+
+        &::after {
+            @apply h-[2px] w-0 rounded-full bg-primary-light block mx-auto mt-1;
+            @apply transition-all ease-out duration-300 delay-200;
+            content: "";
+        }
+
+        &:first-child::after {
+            @apply mx-0;
+        }
+
+        &:last-child::after {
+            @apply mx-0 ml-auto;
+        }
+
+        &:hover::after {
+            @apply w-full;
+        }
+
+        &.router-link-active {
+            @apply text-primary-light;
+
+            &::after {
+                @apply bg-primary-red w-full;
+            }
+        }
+    }
+}
+
+.content {
+    @apply mx-48 my-20 text-center rounded bg-primary-dark transition-all duration-300;
+    @apply lg:mx-96;
+
+    & > * {
+        @apply transition-all duration-300;
+    }
+}
+
+code {
+    @apply text-sm text-primary-red;
 }

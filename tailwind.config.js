@@ -12,9 +12,11 @@ module.exports = {
           // dark: "#302F2C"
           lightest: "#E8EDDF",
           light: "#CFDBD5",
-          accent: "#F5CB5C",
-          dark: "#333533",
-          darkest: "#242423",
+          yellow: "#F5CB5C",
+          red: "#F67E7D",
+          dark: "#333333",
+          // darkest: "#242424",
+          darkest: "#1C2124",
         }
       }
     },
