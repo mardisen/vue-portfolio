@@ -17,6 +17,9 @@ module.exports = {
           dark: "#333333",
           // darkest: "#242424",
           darkest: "#1C2124",
+
+          // alias for the current accent
+          accent: "#F67E7D",
         }
       }
     },

@@ -3,7 +3,7 @@
 
 :root {
     @apply text-primary-light;
-    @apply selection:bg-primary-red;
+    @apply selection:bg-primary-accent;
 }
 
 .navbar {
@@ -37,7 +37,7 @@
             @apply text-primary-light;
 
             &::after {
-                @apply bg-primary-red w-full;
+                @apply bg-primary-accent w-full;
             }
         }
     }
@@ -53,5 +53,5 @@
 }
 
 code {
-    @apply text-sm text-primary-red;
+    @apply text-sm text-primary-accent;
 }

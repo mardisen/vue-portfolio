@@ -4,7 +4,7 @@
             <div class="w-full h-full cover-gradient">
             </div>
         </div>
-        <div class="absolute w-[120%] h-[120%] bg-primary-red pattern animate-to-t">
+        <div class="absolute w-[120%] h-[120%] bg-primary-accent pattern animate-to-t">
         </div>
     </div>
 </template>
