@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Space Mono";
+    src: url("@assets/SpaceMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-space-mono {
+    font-family: "Space Mono"
+}
+
+code {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+        "Courier New", ui-monospace, monospace;
+}
