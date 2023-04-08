@@ -21,6 +21,7 @@ module.exports = {
 
           // alias for the current accent
           accent: "#F67E7D",
+          "light-accent": "#EB9898",
         }
       }
     },

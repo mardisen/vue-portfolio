@@ -1,0 +1,27 @@
+@import "./base.css";
+@import "./animations.css";
+@import "./fonts.css";
+@import "./navbar.css";
+
+:root {
+    @apply text-primary-light;
+    @apply selection:bg-primary-light-accent;
+}
+
+#app,
+body,
+html {
+    @apply h-screen;
+}
+
+#app {
+    @apply flex flex-col;
+}
+
+.content {
+    @apply w-2/4 grow mx-auto my-20 text-center rounded transition-all duration-300;
+
+    & > * {
+        @apply transition-all duration-300;
+    }
+}
