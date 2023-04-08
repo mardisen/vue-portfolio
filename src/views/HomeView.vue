@@ -1,11 +1,14 @@
 <template>
   <div class="flex flex-col p-4 space-y-8 text-left home">
     <div class="flex flex-col space-y-4 w-full">
-      <code class="text-primary-accent">A place to call</code>
-      <h1 class="text-5xl font-space-mono">
-        Home
+      <code class="text-primary-accent">Better call</code>
+      <h1 class="text-6xl font-space-mono">
+        Marino Didio
       </h1>
-      <div class="w-1/3 h-1 bg-primary-lightest"></div>
+      <h2 class="text-6xl font-space-mono text-primary-mid">
+        Software Developer.
+      </h2>
+      <div class="w-1/3 h-1 bg-primary-accent"></div>
     </div>
     <div class="w-full basis-2/3 grow text-primary-mid">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur asperiores laboriosam quisquam expedita
