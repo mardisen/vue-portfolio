@@ -1,14 +1,17 @@
 <template>
-  <div class="flex justify-between items-center h-2/3 home">
-    <div class="text-xl text-left basis-1/3">
-      <code>-</code> Hi this is<br>
-      <code>-</code> My home page<br>
-      <code>-</code> Hello<br>
+  <div class="flex flex-col p-4 space-y-8 text-left home">
+    <div class="flex flex-col space-y-4 w-full">
+      <code class="text-primary-accent">A place to call</code>
+      <h1 class="text-5xl font-space-mono">
+        Home
+      </h1>
+      <div class="w-1/3 h-1 bg-primary-lightest"></div>
     </div>
-    <div class="w-0.5 h-full rounded bg-primary-dark"></div>
-    <div class="text-lg text-right basis-1/3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem aliquid
-      quae quaerat asperiores error? Excepturi, laudantium nulla natus culpa facere laborum? Labore asperiores deleniti
-      atque, enim eligendi esse voluptas ab?</div>
+    <div class="w-full basis-2/3 grow text-primary-mid">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur asperiores laboriosam quisquam expedita
+      dolorum natus temporibus nihil velit delectus nesciunt, sit, obcaecati quaerat? Quam commodi deleniti doloribus
+      laborum. Corrupti.
+    </div>
   </div>
 </template>
 
