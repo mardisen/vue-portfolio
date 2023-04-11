@@ -5,16 +5,17 @@
       <div class="flex flex-col space-y-4 w-full">
         <div class="flex relative space-between">
           <code class="text-primary-accent">Better call</code>
-          <div class="absolute -top-12 -right-24 w-48 h-32 dots-pattern bg-primary-light" />
+          <div class="absolute -top-12 -right-24 w-48 h-32 dots-pattern bg-primary-lightest" />
+          <div class="absolute -top-8 -right-28 w-48 h-32 dots-pattern bg-primary-dark" />
         </div>
 
         <h1 class="text-6xl font-space-mono">
           Marino Didio
         </h1>
         <h2 class="text-6xl font-space-mono text-primary-mid">
-          Software Developer.
+          Software Developer
         </h2>
-        <div class="w-1/3 h-1 bg-primary-light-accent"></div>
+        <div class="!mt-8 w-2/3 h-1 bg-primary-light-accent"></div>
       </div>
       <div class="w-full basis-2/3 grow text-primary-mid">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur asperiores laboriosam quisquam expedita
