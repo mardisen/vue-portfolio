@@ -19,5 +19,5 @@ html {
 }
 
 .content {
-    @apply w-2/4 grow mx-auto mt-40 text-center rounded transition-all duration-300;
+    @apply w-2/4     mx-auto mt-40 text-center rounded transition-all duration-300;
 }
