@@ -4,8 +4,9 @@
       <div class="flex flex-col space-y-4 w-full">
         <div class="flex relative space-between">
           <code class="text-primary-accent">Better call</code>
-          <div class="absolute -top-12 -right-24 w-48 h-32 dots-pattern bg-primary-lightest" />
-          <div class="absolute -top-8 -right-20 w-48 h-32 mix-blend-exclusion dots-pattern bg-primary-darkest" />
+          <div class="absolute -top-12 -right-24 z-10 w-48 h-32 dots-pattern bg-primary-lightest move-shadow" />
+          <div
+            class="absolute -top-8 -right-20 w-48 h-32 shadow mix-blend-exclusion transition-all dots-pattern bg-primary-darkest" />
         </div>
 
         <h1 class="text-6xl font-space-mono">
@@ -19,7 +20,8 @@
       <div class="w-4/5 basis-2/3 grow text-primary-mid">
         Self-taught Software (Web) Developer, currently focusing on frontend technologies and frameworks. Coding and
         designing with passion, while finding my place in the world.<br><br>
-        Currently seeking employement to relocate within the EU (mainly: Netherlands, Germany, Denmark, France) or working remotely from my home country (Italy).
+        Currently seeking employement to relocate within the EU (mainly: Netherlands, Germany, Denmark, France) or working
+        remotely from my home country (Italy).
       </div>
     </div>
   </div>
@@ -28,5 +30,10 @@
 <style>
 .dots-pattern {
   mask-image: url("@assets/dots-pattern.svg");
+}
+
+.move-shadow:hover~.shadow {
+  right: -7rem;
+  top: -4rem;
 }
 </style>
