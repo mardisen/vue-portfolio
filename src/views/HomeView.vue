@@ -19,7 +19,7 @@
       <div class="w-4/5 basis-2/3 grow text-primary-mid">
         Self-taught Software (Web) Developer, currently focusing on frontend technologies and frameworks. Coding and
         designing with passion, while finding my place in the world.<br><br>
-        Currently seeking employement to relocate within the EU (mainly: Netherlands, Germany, Denmark, France)
+        Currently seeking employement to relocate within the EU (mainly: Netherlands, Germany, Denmark, France) or working remotely from my home country (Italy).
       </div>
     </div>
   </div>
