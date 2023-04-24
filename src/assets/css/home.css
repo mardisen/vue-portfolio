@@ -1,0 +1,17 @@
+.dots-pattern {
+    mask-image: url("@assets/dots-pattern.svg");
+}
+
+.move-shadow:hover ~ .shadow {
+    @apply -right-28 -top-16;
+}
+
+.side {
+    @apply self-stretch basis-1.5 transition-all my-2 ml-6 mr-0;
+}
+
+.show-side:hover {
+    .side {
+        @apply bg-primary-mid ml-3 mr-3;
+    }
+}

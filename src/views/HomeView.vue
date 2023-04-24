@@ -1,5 +1,6 @@
 <template>
-  <div class="flex flex-row space-x-4">
+  <div class="flex flex-row show-side">
+    <div class="side" />
     <div class="flex flex-col p-4 space-y-8 text-left home">
       <div class="flex flex-col space-y-4 w-full">
         <div class="flex relative space-between">
@@ -26,14 +27,3 @@
     </div>
   </div>
 </template>
-
-<style>
-.dots-pattern {
-  mask-image: url("@assets/dots-pattern.svg");
-}
-
-.move-shadow:hover~.shadow {
-  right: -7rem;
-  top: -4rem;
-}
-</style>
